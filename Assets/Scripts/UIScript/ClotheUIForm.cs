@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MarketUIForm : BaseUIForm
+public class ClotheUIForm : BaseUIForm
 {
     private void Awake()
     {
@@ -11,12 +11,7 @@ public class MarketUIForm : BaseUIForm
 
         RegisterButtonEvent("close", p =>
         {
-            UIManager.GetInstance().CloseUIForm("MarketUIForm");
-        });
-
-        RegisterButtonEvent("yifu", p =>
-        {
-            UIManager.GetInstance().ShowUIForm("ClotheUIForm");
+            UIManager.GetInstance().CloseUIForm("ClotheUIForm");
         });
     }
 }

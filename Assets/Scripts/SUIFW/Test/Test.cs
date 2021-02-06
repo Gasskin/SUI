@@ -9,7 +9,6 @@ public class Test : MonoBehaviour
         manager = UIManager.GetInstance();
         manager.ShowUIForm("LogonUIForm");
 
-        
     }
 
     // Update is called once per frame

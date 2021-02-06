@@ -50,7 +50,8 @@ public class UIManager:MonoBehaviour
         dicFormsPath.Add("SelectHeroUIForm", "Prefabs/SelectHeroUIForm");
         dicFormsPath.Add("MainCityUIForm", "Prefabs/MainCityUIForm");
         dicFormsPath.Add("HeroInfoUIForm", "Prefabs/HeroInfoUIForm");
-        dicFormsPath.Add("MarketUIForm", "Prefabs/MarketUIForm");
+        dicFormsPath.Add("MarketUIForm", "Prefabs/MarketUIForm"); 
+        dicFormsPath.Add("ClotheUIForm", "Prefabs/ClotheUIForm");
     }
 
     public void ShowUIForm(string name)
